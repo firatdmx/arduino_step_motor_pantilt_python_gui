@@ -3,8 +3,8 @@ from tkinter.ttk import *
 import serial
 
 ser = serial.Serial('COM8', 9600, timeout=1)
-ser.write(b'p 90 p')
-ser.write(b't 90 t')
+#ser.write(b'p 90 p')   >> added to arduino code
+#ser.write(b't 90 t')   >> added to arduino code
 multiX = 10
 sx = 90
 sy = 90
