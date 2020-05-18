@@ -14,7 +14,7 @@ def okk():
     global multiX
     xa = int(multiplier.get())
     if xa < 1 or xa > 180:
-        print("Error: Number can't be more than 179 or less than 1")
+        print("Error: Number can't be more than 180 or less than 1")
         if xa > 180:
             multiplier.delete(0, END)
             multiplier.insert(0, "180")
